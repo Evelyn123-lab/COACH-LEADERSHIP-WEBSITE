@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Coaches & Leadership</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <header>
+        <h1>Coaches & Leadership Platform</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="coach-dashboard.html">CoachDashboard</a>
+            <a href="user-dashboard.html">UserDashboard</a>
+        </nav>
+    </header>
+    <h2>Register</h2>
+    <form id="registerForm" action="#" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <div class="role-selection">
+            <label>
+            <input type="radio" name="role" value="user" required> I am a User
+        </label>
+        <label>
+            <input type="radio" name="role" value="coach" required> I am a Coach
+        </label><br><br>
+
+        </div>
+        
+        <button type="submit">Register</button>
+    </form>
+    <p style="text-align: center; margin-top: 15px;">
+    Already have an account? <a href="login.html">Login here</a>
+</p>
+<script src="js/script.js"></script>
+
+</body>
+</html>
